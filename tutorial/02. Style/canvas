@@ -1,0 +1,4 @@
+fig = plt.figure(figsize = (x,y), dpi = n) #figsize = 그림 크기, dpi = 선 굵기
+fig.set_facecolor("color") #캔버스 색상 설정
+fig.set_tight_layout(1)
+ax = fig.add_subplot() # 프레임 생성
